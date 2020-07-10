@@ -1,6 +1,7 @@
 /*============ ELEMENT SELECTORS =============*/
 body{
      margin: 0;
+     text-align: center;
 }
 
 h1, p {
@@ -10,6 +11,7 @@ h1, p {
 
 /*=============== CLASS SELECTORS ==============*/
 /* https://colorhunt.co/palette/14114 */
+
 .bottom-container{
      background-color: #ff165d;
      height: 200px;
@@ -24,9 +26,25 @@ h1, p {
 
 .profilePic{
      border-radius: 50%;
-     display: block;
+     display: inline-block;
+     position: absolute;
 }
 
-.top-container{
+.topContainer{
      background-color: #3ec1d3;
+     position: relative;
+     padding-top: 100px;
+}
+
+.topCloud{
+     position: absolute;
+     right: 25%;
+     top: 50px;
+}
+
+.bottomCloud{
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     bottom: 300px;
 }
