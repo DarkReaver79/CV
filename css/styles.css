@@ -2,6 +2,7 @@
 body{
      margin: 0;
      text-align: center;
+     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, p {
@@ -11,6 +12,16 @@ h1, p {
 
 /*=============== CLASS SELECTORS ==============*/
 /* https://colorhunt.co/palette/14114 */
+
+.my-name{
+     font-family: 'Sacramento', cursive;
+     font-size: 500%;
+     display: inline-block;
+}
+
+.my-job{
+     padding-top: 20px;
+}
 
 .bottom-container{
      background-color: #ff165d;
@@ -24,27 +35,29 @@ h1, p {
      width: 200px;
 }
 
-.profilePic{
-     border-radius: 50%;
-     display: inline-block;
+.profile-image{
      position: absolute;
+     width: 8%;
+     border-radius: 50%;
+     top: 60px;
+     left: 600px;
 }
 
-.topContainer{
+.top-container{
      background-color: #3ec1d3;
      position: relative;
      padding-top: 100px;
 }
 
-.topCloud{
+.top-cloud{
      position: absolute;
      right: 25%;
      top: 50px;
 }
 
-.bottomCloud{
+.bottom-cloud{
      position: absolute;
-     top: 40%;
-     left: 25%;
+     top: 300px;
+     left: 450px;
      bottom: 300px;
 }
