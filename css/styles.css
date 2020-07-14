@@ -7,11 +7,39 @@ body{
 
 h1, p {
      margin: 0;
-     color: #f6f7d7;
+     color: #0f4c75;
+}
+
+a, strong{
+     color: #fa26a0;
 }
 
 /*=============== CLASS SELECTORS ==============*/
 /* https://colorhunt.co/palette/14114 */
+
+.bottom-cloud{
+     position: absolute;
+     top: 300px;
+     left: 450px;
+     bottom: 300px;
+}
+
+.bottom-container{
+     /* background-color: #1b262c; */
+}
+
+.html5-logo{
+     height: 100px;
+     margin-top: 20px;
+}
+
+.middle-container{
+     /* background-color: #3282b8;*/
+}
+
+.my-job{
+     padding-top: 20px;
+}
 
 .my-name{
      font-family: 'Sacramento', cursive;
@@ -19,32 +47,14 @@ h1, p {
      display: inline-block;
 }
 
-.my-job{
-     padding-top: 20px;
-}
-
-.bottom-container{
-     background-color: #ff165d;
-     height: 200px;
-     width: 200px;
-}
-
-.middle-container{
-     background-color: #ff9a00;
-     height: 200px;
-     width: 200px;
-}
-
 .profile-image{
-     position: absolute;
-     width: 8%;
      border-radius: 50%;
-     top: 60px;
-     left: 600px;
+     height: 200px;
+     margin-top: 20px;
 }
 
 .top-container{
-     background-color: #3ec1d3;
+     background-color: #bbe1fa;
      position: relative;
      padding-top: 100px;
 }
@@ -53,11 +63,4 @@ h1, p {
      position: absolute;
      right: 25%;
      top: 50px;
-}
-
-.bottom-cloud{
-     position: absolute;
-     top: 300px;
-     left: 450px;
-     bottom: 300px;
 }
