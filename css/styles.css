@@ -4,6 +4,7 @@ body{
      margin: 0;
      text-align: center;
      font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 1em;
 }
 
 a {
@@ -12,6 +13,8 @@ a {
 
 h2 {
      color: #fa26a0;
+     font-size: 2.5rem;
+     font-weight: normal;
 }
 
 h3 {
@@ -20,6 +23,7 @@ h3 {
 
 strong{
      color: #fa26a0;
+     font-weight: bold;
 }
 
 /*=============== CLASS SELECTORS ==============*/
@@ -38,19 +42,32 @@ strong{
      margin-top: 20px;
 }
 
+.code-img{
+     float: left;
+     margin-right: 30px;
+     width: 10%;
+}
+
+.data-img{
+     float: left;
+     margin-right: 30px;
+     width: 10%;
+}
+
 .middle-container{
      /*background-color: #3282b8;*/
 }
 
 .my-job{
-     margin: 0;
+     margin: 0 auto;
+     line-height: 2;
 }
 
 .my-name{
      font-family: 'Sacramento', cursive;
-     font-size: 500%;
+     font-size: 5.625rem;
      display: inline-block;
-     margin: 0;
+     margin: 0 auto;
 }
 
 .profile-image{
@@ -59,9 +76,23 @@ strong{
      margin-top: 20px;
 }
 
-.skills-logo{
-     height: 100px;
-     margin-top: 50px;
+.seo-img{
+     float: left;
+     margin-right: 30px;
+     width: 10%;
+}
+
+.skill-row{
+     line-height: 2;
+     margin: 100px auto;
+     text-align: left;
+     width: 50%;
+}
+
+.test-img{
+     float: left;
+     margin-right: 30px;
+     width: 10%;
 }
 
 .top-container{
